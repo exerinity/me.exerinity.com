@@ -1,0 +1,17 @@
+<h3>ex3</h3>
+<p>A multi-functional Discord utility bot</p>
+<a href="https://bot.exerinity.com" style="text-decoration: underline;" target="_blank">bot.exerinity.com</a><br>
+<img src="https://bot.exerinity.com/pre/screenshots/1.png" width="400"><br>
+<h3>pigeon</h3>
+<p>An AI chatbot</p>
+<a href="https://pigeon.exerinity.com" style="text-decoration: underline;" target="_blank">pigeon.exerinity.com</a><br>
+<img src="https://i.exerinity.com/Discord_i8PCrTHj0y" width="600">
+<h3>Search</h3>
+<p>Search engine re-router. basically, put a query in, select your engine, and away you go</p>
+<a href="https://search.exerinity.com" style="text-decoration: underline;" target="_blank">view</a>
+<img src="https://i.exerinity.com/chrome_h0UZmV7GH6" width="500">
+<h3>Bruckell.autos</h3>
+<p>A parody BeamNG.drive site about Bruckell, a car manufacturer.</p>
+<p><a href="https://bruckell.autos" style="text-decoration: underline;" target="_blank">Website</a> - <a href="https://github.com/exerinity/bruckell.autos" style="text-decoration: underline;" target="_blank">Source</a>
+<img src="https://i.exerinity.com/chrome_JSSg79N0tc" width="550">
+<h2><a href="https://exerinity.com/projects">read more here</a></h2>

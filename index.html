@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>exerinity: about me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- "biscuit" is not the name of this stylesheet, site, anything. its just an arbitrarily chosen name for the resource, cuz "style.css" or "stylesheet.css" is bland -->
+    <link rel="stylesheet" href="/i/biscuit.css">
+    <!-- font awesome cuz its awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- twemoji (it should rename to xmoji) -->
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="main-content" id="main-content">
+        <h1 id="hone">Hello 👋 I'm exerinity</h1>
+        <!-- "hone" is not a misspelling of "home"; it means header one, just like h1 -->
+        <hr>
+        <p>I'm a self-taught full-stack developer/programmer since age 9 from <span title="Australia">🇦🇺</span>. I code in JavaScript and run a couple discord bots, and other random services.<br><i>main site: <a href="https://exerinity.com">exerinity.com</a> - this site/page is more about me</i></p>
+        <h2 id="post-date"></h2>
+        <p id="post-text">loading...</p>
+        <a href="https://exerinity.com/bsky" id="post-link"><img id="post-image" style="display: none;" width="60%"></a>
+        <h2 id="status"><i class="fa-brands fa-discord" title="Discord activity"></i></h2>
+        <h3 id="listening"></h3>
+        <h2 id="misc">view something:</h2>
+        <div class="button-group" role="toolbar" aria-label="Content">
+            <button data-section="socials">socials</button>
+            <button data-section="projects">projects</button>
+            <button data-section="contact">contact</button>
+            <button data-section="nothing">nothing</button>
+            <button onclick="colour()" id="colour">new colour</button>
+            <button onclick="rave()" id="rave" title="this is 128 bpm">rave</button>
+            <button onclick="font()" id="font">switch to Chirp font</button>
+        </div>
+        <div id="changable"></div>
+        <hr>
+        <footer>This site is an experiment where I try more JavaScript-heavy stuff and may vanish at any time<br>Theme based on <a href="https://pigeon.exerinity.com">pigeon.exerinity.com</a> // Emojis: <a href="https://github.com/twitter/twemoji" target="_blank" rel="noopener noreferrer">Twemoji</a> // GitHub: <a href="https://github.com/exerinity/me.exerinity.com" target="_blank">here</a>
+    </main>
+    <noscript style="margin: 2rem; text-align: center; font-size: 1.2rem;">
+        JavaScript is disabled. Please enable it to view this page properly.<br>
+        <div style="margin-top: 1rem;">
+            <a href="https://www.enable-javascript.com/" target="_blank" rel="noopener noreferrer">how to enable
+                javascript</a>
+        </div>
+    </noscript>
+
+
+    <script src="/i/stuff.js" defer></script>
+</body>
+
+</html>

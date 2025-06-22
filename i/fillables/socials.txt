@@ -1,0 +1,21 @@
+<h3><a href="https://exerinity.com/twitter">Twitter <i class="fa-brands fa-twitter"></i></a></h3>
+<p>I tweet about varied things, mostly programming, sometimes <span title="Spicy, as in, controversial.">🌶</span> discussions</p>
+<h3><a href="https://exerinity.com/bsky">Bluesky <i class="fa-brands fa-bluesky"></i></a></h3>
+<p>My favourite app that I want to use more, often rambling about tech and sometimes crossposting from Twitter; especially threads.</p>
+<h3><a href="https://exerinity.com/youtube">YouTube <i class="fa-brands fa-youtube"></i></a></h3>
+<p>I sometimes upload music-related videos, <a href="https://www.youtube.com/watch?v=foBvJyBUnlM">once I remixed a GTA Online heist score from scratch and put it over a V heist</a></p>
+<h3><a href="https://exerinity.com/tiktok">TikTok <i class="fa-brands fa-tiktok"></i></a></h3>
+<p>Mostly inactive, random shitposts. not much to say about this one</p>
+<h3><a href="https://exerinity.com/steam">Steam <i class="fa-brands fa-steam"></i></a></h3>
+<p>Mostly just playing BeamNG.drive</p>
+<h3>other platforms I dont use much and have no clever summary for</h3>
+<a href="https://exerinity.com/soundcloud">soundcloud</a>
+<a href="https://exerinity.com/github">github</a>
+<a href="https://exerinity.com/bandcamp">bandcamp</a>
+<a href="https://exerinity.com/reddit">reddit</a>
+<a href="https://exerinity.com/mastodon">mastodon</a>
+<a href="https://exerinity.com/odysee">odysee</a>
+<a href="https://exerinity.com/instagram">instagram</a>
+<a href="https://exerinity.com/truth">truth social</a>
+<hr>
+<a onclick="socials_ecom()">why are the links "exerinity.com"?</a>

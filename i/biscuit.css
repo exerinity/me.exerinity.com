@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Chirp';
+    src: url('/i/font/twitter-inc/chirp/chirp-regular-web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chirp';
+    src: url('/i/font/twitter-inc/chirp/chirp-medium-web.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chirp';
+    src: url('/i/font/twitter-inc/chirp/chirp-bold-web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chirp';
+    src: url('/i/font/twitter-inc/chirp/chirp-heavy-web.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+#main-content.chirp-font,
+#main-content.chirp-font body,
+#main-content.chirp-font button,
+#main-content.chirp-font input[type="submit"],
+#main-content.chirp-font input[type="button"] {
+    font-family: 'Chirp', sans-serif !important;
+}
+
+
+
+:root {
+    --main-color: #ff0000;
+    --hover-color: #cc0000;
+    --active-color: #990000;
+}
+
+body {
+    background: #000;
+    color: var(--main-color);
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content,
+main,
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: underline;
+    font-weight: bold;
+    transition: font-size 0.1s;
+}
+
+a:hover,
+a:focus {
+    font-size: 100.001%;
+}
+
+button,
+input[type="submit"],
+input[type="button"] {
+    background: #000;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    font-family: 'Fira Code', monospace;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background: var(--main-color);
+    color: #000;
+}
+
+code,
+pre {
+    background: none;
+    color: inherit;
+    font-family: inherit;
+    border: none;
+    padding: 0;
+}
+
+::selection {
+    background: var(--main-color);
+    color: #000;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: var(--main-color);
+    margin: 1rem 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #070709;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--hover-color);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: var(--active-color);
+}
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 0.05em 0 0.1em;
+    vertical-align: -0.1em;
+    display: inline;
+}
+
+.changable h3 a {
+    text-decoration: none;
+}
+
+#main-content.chirp-font i.fa.fa,
+#main-content.chirp-font i.fas.fas,
+#main-content.chirp-font i.far.far,
+#main-content.chirp-font i.fab.fab {
+    font-family: "Font Awesome 6 Free" !important;
+}
+
+#main-content.chirp-font i.fab.fab {
+    font-family: "Font Awesome 6 Brands" !important;
+}
+
+#main-content.chirp-font i.fa.fa,
+#main-content.chirp-font i.fas.fas {
+    font-weight: 900 !important;
+}
+#main-content.chirp-font i.far.far {
+    font-weight: 400 !important;
+}
+#main-content.chirp-font i.fab.fab {
+    font-weight: 400 !important;
+}

@@ -14,6 +14,7 @@ exerinity.com is too cluttered and feels more like a platform than a personal pa
 
 # Credits
 - [twemoji](https://twemoji.twitter.com/) for the emojis
+- [Twitter](https://opensource.twitter.dev/) for the font, Chirp (Twitter Open Source is linked because it is not yet X-fied by X Corp)
 - [Font Awesome](https://fontawesome.com/) for the icons    
 - [pigeon.exerinity.com](https://pigeon.exerinity.com/) for the theme (reusing my own code lol)
 - [Lanyard](https://lanyard.rest) for the Discord status

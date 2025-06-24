@@ -119,6 +119,12 @@ const sections = {
     contact: {
         file: '/i/fillables/contact.txt'
     },
+    more: {
+        file: '/i/fillables/more.txt'
+    },
+    songs: {
+        file: '/i/fillables/songs.txt'
+    },
     nothing: {
         file: '/i/fillables/nothing.txt' // no idea why I did it this way
     }

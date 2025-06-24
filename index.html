@@ -25,19 +25,22 @@
         <a href="https://exerinity.com/bsky" id="post-link"><img id="post-image" style="display: none;" width="60%"></a>
         <h2 id="status"><i class="fa-brands fa-discord" title="Discord activity"></i></h2>
         <h3 id="listening"></h3>
+        <p id="time"></p>
         <h2 id="misc">view something:</h2>
         <div class="button-group" role="toolbar" aria-label="Content">
-            <button data-section="socials">socials</button>
-            <button data-section="projects">projects</button>
-            <button data-section="contact">contact</button>
+            <button data-section="socials">my socials</button>
+            <button data-section="projects">my projects</button>
+            <button data-section="contact">contact me</button>
+            <button data-section="more">more about me</button>
+            <button data-section="songs">favourite songs</button>
             <button data-section="nothing">nothing</button>
-            <button onclick="colour()" id="colour">new colour</button>
-            <button onclick="rave()" id="rave" title="this is 128 bpm">rave</button>
-            <button onclick="font()" id="font">switch to Chirp font</button>
         </div>
         <div id="changable"></div>
         <hr>
         <footer>This site is an experiment where I try more JavaScript-heavy stuff and may vanish at any time<br>Theme based on <a href="https://pigeon.exerinity.com">pigeon.exerinity.com</a> // Emojis: <a href="https://github.com/twitter/twemoji" target="_blank" rel="noopener noreferrer">Twemoji</a> // GitHub: <a href="https://github.com/exerinity/me.exerinity.com" target="_blank">here</a>
+            <br><br><center><button onclick="colour()" id="colour">new colour</button>
+            <button onclick="rave()" id="rave" title="128 bpm is the typical bpm in big-room EDM tracks, my favourite genre.">rave (128 bpm)</button>
+            <button onclick="font()" id="font">switch to Chirp font</button></center>
     </main>
     <noscript style="margin: 2rem; text-align: center; font-size: 1.2rem;">
         JavaScript is disabled. Please enable it to view this page properly.<br>
@@ -49,6 +52,7 @@
 
 
     <script src="/i/stuff.js" defer></script>
+    <script src="/i/time.js" defer></script>
 </body>
 
 </html>

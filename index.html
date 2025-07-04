@@ -12,6 +12,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <!-- twemoji (it should rename to xmoji) -->
     <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+    <style>
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 4px solid #979797;
+            border-top-color: #1d9bf0;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -19,11 +35,13 @@
         <h1 id="hone">Hello 👋 I'm exerinity</h1>
         <!-- "hone" is not a misspelling of "home"; it means header one, just like h1 -->
         <hr>
-        <p>I'm a self-taught full-stack developer/programmer since age 9 from <span title="Australia">🇦🇺</span>. I code in JavaScript and run a couple discord bots, and other random services.<br><i>main site: <a href="https://exerinity.com">exerinity.com</a> - this site/page is more about me</i></p>
+        <p>I'm a self-taught full-stack developer/programmer since age 9 from <span title="Australia">🇦🇺</span>. I
+            code in JavaScript and run a couple discord bots, and other random services.<br><i>main site: <a
+                    href="https://exerinity.com">exerinity.com</a> - this site/page is more about me</i></p>
         <h2 id="post-date"></h2>
-        <p id="post-text">loading...</p>
+        <p id="post-text"><div class="spinner" id="spinz"></div></p>
         <a href="https://exerinity.com/bsky" id="post-link"><img id="post-image" style="display: none;" width="60%"></a>
-        <h2 id="status"><i class="fa-brands fa-discord" title="Discord activity"></i></h2>
+        <h2 id="status"><i class="fa-brands fa-discord" title="Discord activity"></i><div class="spinner" id="spinz2"></div></h2>
         <h3 id="listening"></h3>
         <p id="time"></p>
         <h2 id="misc">view something:</h2>
@@ -37,10 +55,17 @@
         </div>
         <div id="changable"></div>
         <hr>
-        <footer>This site is an experiment where I try more JavaScript-heavy stuff and may vanish at any time<br>Theme based on <a href="https://pigeon.exerinity.com">pigeon.exerinity.com</a> // Emojis: <a href="https://github.com/twitter/twemoji" target="_blank" rel="noopener noreferrer">Twemoji</a> // GitHub: <a href="https://github.com/exerinity/me.exerinity.com" target="_blank">here</a>
-            <br><br><center><button onclick="colour()" id="colour">new colour</button>
-            <button onclick="rave()" id="rave" title="128 bpm is the typical bpm in big-room EDM tracks, my favourite genre.">rave (128 bpm)</button>
-            <button onclick="font()" id="font">switch to Chirp font</button></center>
+        <footer>This site is an experiment where I try more JavaScript-heavy stuff and may vanish at any time<br>Theme
+            based on <a href="https://pigeon.exerinity.com">pigeon.exerinity.com</a> // Emojis: <a
+                href="https://github.com/twitter/twemoji" target="_blank" rel="noopener noreferrer">Twemoji</a> //
+            GitHub: <a href="https://github.com/exerinity/me.exerinity.com" target="_blank">here</a>
+            <br><br>
+            <center><button onclick="colour()" id="colour">new colour</button>
+                <button onclick="rave()" id="rave"
+                    title="128 bpm is the typical bpm in big-room EDM tracks, my favourite genre.">rave (128
+                    bpm)</button>
+                <button onclick="font()" id="font">switch to Chirp font</button>
+            </center>
     </main>
     <noscript style="margin: 2rem; text-align: center; font-size: 1.2rem;">
         JavaScript is disabled. Please enable it to view this page properly.<br>

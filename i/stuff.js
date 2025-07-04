@@ -54,7 +54,10 @@ async function bluesky() {
                 document.getElementById('post-link').href = `https://bsky.app/profile/${post.post.author.did}/post/${post.post.uri.split('/').pop()}`;
 
             }
+
+            document.getElementById("spinz").remove();
         } else {
+            document.getElementById("spinz").remove();
             document.getElementById('post-text').textContent = 'no posts found :('; // usually if i repost something, or whatnot
         }
     } catch (err) {
@@ -85,6 +88,8 @@ async function discord() {
     const music = json.data.listening_to_spotify ? `♪` : '';
 
     document.querySelector('#status').innerHTML = '<i class="fa-brands fa-discord" title="Discord activity"></i> ' + display;
+
+    document.getElementById("spinz2").remove();
 
     if (json.data.listening_to_spotify && json.data.spotify) {
         const song = `"${json.data.spotify.song}" by ${json.data.spotify.artist.replace(/;/g, ',')}`;
@@ -153,6 +158,7 @@ const fill = async (file) => {
 const switch_container = async (section) => {
     const misc = document.getElementById('misc');
     const changable = document.getElementById('changable');
+    changable.innerHTML = '<div class="spinner" id="spinz3">';
 
     if (!misc || !changable) {
         console.error('Required DOM elements not found');
@@ -160,6 +166,7 @@ const switch_container = async (section) => {
     }
     misc.innerHTML = section === 'nothing' ? 'view something:' : '<br>'; // this is probably the most interesting part
     const content = await fill(sections[section]?.file || '/i/fillables/nothing.txt');
+    
     changable.innerHTML = content;
 
     if (sections[section]?.postProcess) {

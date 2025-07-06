@@ -1,5 +1,5 @@
 <h3><a href="https://exerinity.com/twitter">Twitter <i class="fa-brands fa-twitter"></i></a></h3>
-<p>I tweet about varied things, mostly programming, sometimes <span title="Spicy, as in, controversial.">🌶</span> discussions</p>
+<p>I do what a usual teenager does on Twitter... bitch about everything</p>
 <h3><a href="https://exerinity.com/bsky">Bluesky <i class="fa-brands fa-bluesky"></i></a></h3>
 <p>My favourite app that I want to use more, often rambling about tech and sometimes crossposting from Twitter; especially threads.</p>
 <h3><a href="https://exerinity.com/youtube">YouTube <i class="fa-brands fa-youtube"></i></a></h3>
@@ -18,4 +18,4 @@
 <a href="https://exerinity.com/instagram">instagram</a>
 <a href="https://exerinity.com/truth">truth social</a>
 <hr>
-<a onclick="socials_ecom()">why are the links "exerinity.com"?</a>
+<a onclick="socials_ecom()" style="cursor: pointer">why are the links "exerinity.com"?</a>

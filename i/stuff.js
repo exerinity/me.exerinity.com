@@ -280,7 +280,7 @@ function socials_ecom() {
     msg.style.marginTop = '0.5rem';
     msg.style.fontSize = '1.08rem';
     msg.style.lineHeight = '1.6';
-    msg.innerHTML = `<h2>why are the links "exerinity.com"?</h2>The links begin with "exerinity.com" to make it more streamlined. These links use Cloudflare Pages' _redirect rules, so it's one central file.
+    msg.innerHTML = `<p>me.exerinity.com</p><h2>Why are the links "exerinity.com"?</h2>The links begin with "exerinity.com" to make it more streamlined. These links use Cloudflare Pages' _redirect rules, so it's one central file.
 <br><br>
 For example, if I change handles, get banned, or simply leave, it's 1000x times easier to update, as opposed to going to 20 different sites and places and edit them one-by-one.
 <br><br>
